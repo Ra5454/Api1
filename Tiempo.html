@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <title>El tiempo</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-10">
+        <label>Nombre</label>
+        <input type="text" placeholder="Nombre" class="form-control" requiered>
+        </div>
+        </form>
+    </div>
+    <div class="container">
+    <div class="row g-3 align-items-center">
+    <div class="input"></div>
+    
+       
+        
+        <div class="col-md-5">
+        <label for="ciudad">Ciudad</label>
+        <input type="text"  class="form-control"id="ciudad">
+        </div>
+        
+        <div class="col-md-5">
+            <label>País</label>
+            <input type="text" class="form-control" id="pais" required>
+        </div>
+
+        <div class="col-12">
+            <br>
+      <input type="submit" value="Submit" class="submit">
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="temp_max"></p>
+      <p class="temp_min"></p>
+      <p class="clouds"></p>
+    </div>
+  </div>
+<script src="/js/Tiempo.js"></script>
+</form>
+</body>
+</html>
